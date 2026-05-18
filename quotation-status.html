@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Quotation Status</title>
+</head>
+<body>
+
+  <h1>Quotation Status</h1>
+
+  <button onclick="goDashboard()">
+    + Key New Quotation
+  </button>
+
+  <button onclick="exportCSV()">
+    Export CSV
+  </button>
+
+  <table border="1">
+
+    <thead>
+      <tr>
+        <th>Quotation No</th>
+        <th>Vendor</th>
+        <th>Store</th>
+        <th>Status</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+
+    <tbody id="quotationTable"></tbody>
+
+  </table>
+
+  <script src="js/quotation-status.js"></script>
+
+</body>
+</html>

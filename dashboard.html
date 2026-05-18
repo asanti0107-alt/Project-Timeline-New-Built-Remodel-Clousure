@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-menu">
+
+    <h1>Quotation Dashboard</h1>
+
+    <button id="btnVendor">Add Vendor</button>
+    <button id="btnStatus">Add Status</button>
+    <button id="btnStore">Add Store</button>
+
+    <hr>
+
+    <form id="quotationForm">
+
+        <label>Vendor</label>
+        <select id="vendor"></select>
+        <br>
+
+        <label>Quotation Date</label>
+        <input type="date" id="quotationDate">
+        <br>
+
+        <label>Quotation Number</label>
+        <input type="text" id="quotationNumber">
+        <br>
+
+        <label>PO Number</label>
+        <input type="text" id="poNumber">
+        <br>
+
+        <label>PO Date</label>
+        <input type="date" id="poDate">
+        <br>
+
+        <label>Store ID</label>
+        <select id="storeId"></select>
+        <br>
+
+        <label>Store Name</label>
+        <input type="text" id="storeName">
+        <br>
+
+        <label>Status</label>
+        <select id="status"></select>
+        <br><br>
+
+        <button type="submit">Save</button>
+
+    </form>
+
+</html>
